@@ -1,0 +1,21 @@
+rect.border {
+    stroke: #505050;
+    stroke-width: 1px;
+}
+
+text.mono {
+    font-size: 9pt;
+    font-family: Consolas, courier;
+    fill: #aaa;
+}
+
+div.d3 {
+    align-items:center;
+    top: -350px;
+}
+
+button {
+    display: block;
+    float: left;
+    align-items: center;    
+}

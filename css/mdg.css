@@ -1,0 +1,30 @@
+.links {
+    position: fixed;
+    width: 80%;
+    height: 5%;
+    z-index: 30;
+    left: 10px;
+    bottom: 45px;
+}
+
+.applinks {
+    position: fixed;
+    height: 5%;
+    z-index: 30;
+    right: 25px;
+    top: 10px;
+}
+
+.links a img{
+    width: auto;
+    height: auto;
+}
+
+.reveal img {
+    max-height: 60%;
+    height: auto;
+    width: auto;
+}
+pre #slide2{
+    text-align: center;
+}   

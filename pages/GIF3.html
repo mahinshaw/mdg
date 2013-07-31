@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>MDG</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../css/reveal.min.css">
+		<link rel="stylesheet" href="../css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+        
+        <link rel="stylesheet" href="../css/mdg.css">
+        <link rel="stylesheet" href="../css/heatmap.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+
+        <script src="../lib/js/d3.min.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+                    <img src="../GIFs/anim_serc.gif">
+                </section>
+			</div>
+            <div class="links">
+                <ul>
+                    <a href="http://www.technomic.com" target="_blank"><img src="../lib/assets/download.jpeg"></a>
+                </ul>
+            </div>
+
+		</div>
+        
+        
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+        
+        <script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: false,
+				center: true,
+                
+                backgroundTransition: 'slide',
+
+				theme: Reveal.getQueryHash().theme || 'moon', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

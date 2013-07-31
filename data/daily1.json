@@ -1,0 +1,862 @@
+{
+    "sunday": [
+        {
+            "store": 1,
+            "hour": 1,
+            "value": 862
+        },
+        {
+            "store": 1,
+            "hour": 2,
+            "value": 982
+        },
+        {
+            "store": 1,
+            "hour": 3,
+            "value": 575
+        },
+        {
+            "store": 1,
+            "hour": 4,
+            "value": 980
+        },
+        {
+            "store": 1,
+            "hour": 5,
+            "value": 993
+        },
+        {
+            "store": 1,
+            "hour": 6,
+            "value": 967
+        },
+        {
+            "store": 1,
+            "hour": 7,
+            "value": 997
+        },
+        {
+            "store": 1,
+            "hour": 8,
+            "value": 21
+        },
+        {
+            "store": 1,
+            "hour": 9,
+            "value": 607
+        },
+        {
+            "store": 1,
+            "hour": 10,
+            "value": 937
+        },
+        {
+            "store": 1,
+            "hour": 11,
+            "value": 148
+        },
+        {
+            "store": 1,
+            "hour": 12,
+            "value": 493
+        },
+        {
+            "store": 1,
+            "hour": 13,
+            "value": 266
+        },
+        {
+            "store": 1,
+            "hour": 14,
+            "value": 868
+        },
+        {
+            "store": 1,
+            "hour": 15,
+            "value": 600
+        },
+        {
+            "store": 1,
+            "hour": 16,
+            "value": 431
+        },
+        {
+            "store": 1,
+            "hour": 17,
+            "value": 697
+        },
+        {
+            "store": 1,
+            "hour": 18,
+            "value": 74
+        },
+        {
+            "store": 1,
+            "hour": 19,
+            "value": 147
+        },
+        {
+            "store": 1,
+            "hour": 20,
+            "value": 333
+        },
+        {
+            "store": 1,
+            "hour": 21,
+            "value": 312
+        },
+        {
+            "store": 1,
+            "hour": 22,
+            "value": 145
+        },
+        {
+            "store": 1,
+            "hour": 23,
+            "value": 319
+        },
+        {
+            "store": 1,
+            "hour": 24,
+            "value": 453
+        }
+    ],
+    
+    "monday": [
+        {
+            "store": 1,
+            "hour": 1,
+            "value": 995
+        },
+        {
+            "store": 1,
+            "hour": 2,
+            "value": 25
+        },
+        {
+            "store": 1,
+            "hour": 3,
+            "value": 970
+        },
+        {
+            "store": 1,
+            "hour": 4,
+            "value": 894
+        },
+        {
+            "store": 1,
+            "hour": 5,
+            "value": 403
+        },
+        {
+            "store": 1,
+            "hour": 6,
+            "value": 78
+        },
+        {
+            "store": 1,
+            "hour": 7,
+            "value": 634
+        },
+        {
+            "store": 1,
+            "hour": 8,
+            "value": 983
+        },
+        {
+            "store": 1,
+            "hour": 9,
+            "value": 340
+        },
+        {
+            "store": 1,
+            "hour": 10,
+            "value": 622
+        },
+        {
+            "store": 1,
+            "hour": 11,
+            "value": 1000
+        },
+        {
+            "store": 1,
+            "hour": 12,
+            "value": 231
+        },
+        {
+            "store": 1,
+            "hour": 13,
+            "value": 782
+        },
+        {
+            "store": 1,
+            "hour": 14,
+            "value": 48
+        },
+        {
+            "store": 1,
+            "hour": 15,
+            "value": 505
+        },
+        {
+            "store": 1,
+            "hour": 16,
+            "value": 658
+        },
+        {
+            "store": 1,
+            "hour": 17,
+            "value": 880
+        },
+        {
+            "store": 1,
+            "hour": 18,
+            "value": 546
+        },
+        {
+            "store": 1,
+            "hour": 19,
+            "value": 331
+        },
+        {
+            "store": 1,
+            "hour": 20,
+            "value": 530
+        },
+        {
+            "store": 1,
+            "hour": 21,
+            "value": 11
+        },
+        {
+            "store": 1,
+            "hour": 22,
+            "value": 376
+        },
+        {
+            "store": 1,
+            "hour": 23,
+            "value": 520
+        },
+        {
+            "store": 1,
+            "hour": 24,
+            "value": 142
+        }
+    ],
+    
+    "tuesday": [
+        {
+            "store": 1,
+            "hour": 1,
+            "value": 471
+        },
+        {
+            "store": 1,
+            "hour": 2,
+            "value": 866
+        },
+        {
+            "store": 1,
+            "hour": 3,
+            "value": 110
+        },
+        {
+            "store": 1,
+            "hour": 4,
+            "value": 693
+        },
+        {
+            "store": 1,
+            "hour": 5,
+            "value": 69
+        },
+        {
+            "store": 1,
+            "hour": 6,
+            "value": 153
+        },
+        {
+            "store": 1,
+            "hour": 7,
+            "value": 958
+        },
+        {
+            "store": 1,
+            "hour": 8,
+            "value": 584
+        },
+        {
+            "store": 1,
+            "hour": 9,
+            "value": 115
+        },
+        {
+            "store": 1,
+            "hour": 10,
+            "value": 693
+        },
+        {
+            "store": 1,
+            "hour": 11,
+            "value": 184
+        },
+        {
+            "store": 1,
+            "hour": 12,
+            "value": 128
+        },
+        {
+            "store": 1,
+            "hour": 13,
+            "value": 437
+        },
+        {
+            "store": 1,
+            "hour": 14,
+            "value": 28
+        },
+        {
+            "store": 1,
+            "hour": 15,
+            "value": 568
+        },
+        {
+            "store": 1,
+            "hour": 16,
+            "value": 686
+        },
+        {
+            "store": 1,
+            "hour": 17,
+            "value": 895
+        },
+        {
+            "store": 1,
+            "hour": 18,
+            "value": 578
+        },
+        {
+            "store": 1,
+            "hour": 19,
+            "value": 134
+        },
+        {
+            "store": 1,
+            "hour": 20,
+            "value": 154
+        },
+        {
+            "store": 1,
+            "hour": 21,
+            "value": 370
+        },
+        {
+            "store": 1,
+            "hour": 22,
+            "value": 368
+        },
+        {
+            "store": 1,
+            "hour": 23,
+            "value": 903
+        },
+        {
+            "store": 1,
+            "hour": 24,
+            "value": 931
+        }
+    ],
+    
+    "wednesday": [
+        {
+            "store": 1,
+            "hour": 1,
+            "value": 471
+        },
+        {
+            "store": 1,
+            "hour": 2,
+            "value": 866
+        },
+        {
+            "store": 1,
+            "hour": 3,
+            "value": 110
+        },
+        {
+            "store": 1,
+            "hour": 4,
+            "value": 693
+        },
+        {
+            "store": 1,
+            "hour": 5,
+            "value": 69
+        },
+        {
+            "store": 1,
+            "hour": 6,
+            "value": 153
+        },
+        {
+            "store": 1,
+            "hour": 7,
+            "value": 958
+        },
+        {
+            "store": 1,
+            "hour": 8,
+            "value": 584
+        },
+        {
+            "store": 1,
+            "hour": 9,
+            "value": 115
+        },
+        {
+            "store": 1,
+            "hour": 10,
+            "value": 693
+        },
+        {
+            "store": 1,
+            "hour": 11,
+            "value": 184
+        },
+        {
+            "store": 1,
+            "hour": 12,
+            "value": 128
+        },
+        {
+            "store": 1,
+            "hour": 13,
+            "value": 437
+        },
+        {
+            "store": 1,
+            "hour": 14,
+            "value": 28
+        },
+        {
+            "store": 1,
+            "hour": 15,
+            "value": 568
+        },
+        {
+            "store": 1,
+            "hour": 16,
+            "value": 686
+        },
+        {
+            "store": 1,
+            "hour": 17,
+            "value": 895
+        },
+        {
+            "store": 1,
+            "hour": 18,
+            "value": 578
+        },
+        {
+            "store": 1,
+            "hour": 19,
+            "value": 134
+        },
+        {
+            "store": 1,
+            "hour": 20,
+            "value": 154
+        },
+        {
+            "store": 1,
+            "hour": 21,
+            "value": 370
+        },
+        {
+            "store": 1,
+            "hour": 22,
+            "value": 368
+        },
+        {
+            "store": 1,
+            "hour": 23,
+            "value": 903
+        },
+        {
+            "store": 1,
+            "hour": 24,
+            "value": 931
+        }
+    ],
+    
+    "thursday": [
+        {
+            "store": 1,
+            "hour": 1,
+            "value": 471
+        },
+        {
+            "store": 1,
+            "hour": 2,
+            "value": 866
+        },
+        {
+            "store": 1,
+            "hour": 3,
+            "value": 110
+        },
+        {
+            "store": 1,
+            "hour": 4,
+            "value": 693
+        },
+        {
+            "store": 1,
+            "hour": 5,
+            "value": 69
+        },
+        {
+            "store": 1,
+            "hour": 6,
+            "value": 153
+        },
+        {
+            "store": 1,
+            "hour": 7,
+            "value": 958
+        },
+        {
+            "store": 1,
+            "hour": 8,
+            "value": 584
+        },
+        {
+            "store": 1,
+            "hour": 9,
+            "value": 115
+        },
+        {
+            "store": 1,
+            "hour": 10,
+            "value": 693
+        },
+        {
+            "store": 1,
+            "hour": 11,
+            "value": 184
+        },
+        {
+            "store": 1,
+            "hour": 12,
+            "value": 128
+        },
+        {
+            "store": 1,
+            "hour": 13,
+            "value": 437
+        },
+        {
+            "store": 1,
+            "hour": 14,
+            "value": 28
+        },
+        {
+            "store": 1,
+            "hour": 15,
+            "value": 568
+        },
+        {
+            "store": 1,
+            "hour": 16,
+            "value": 686
+        },
+        {
+            "store": 1,
+            "hour": 17,
+            "value": 895
+        },
+        {
+            "store": 1,
+            "hour": 18,
+            "value": 578
+        },
+        {
+            "store": 1,
+            "hour": 19,
+            "value": 134
+        },
+        {
+            "store": 1,
+            "hour": 20,
+            "value": 154
+        },
+        {
+            "store": 1,
+            "hour": 21,
+            "value": 370
+        },
+        {
+            "store": 1,
+            "hour": 22,
+            "value": 368
+        },
+        {
+            "store": 1,
+            "hour": 23,
+            "value": 903
+        },
+        {
+            "store": 1,
+            "hour": 24,
+            "value": 931
+        }
+    ],
+    
+    "friday": [
+        {
+            "store": 1,
+            "hour": 1,
+            "value": 774
+        },
+        {
+            "store": 1,
+            "hour": 2,
+            "value": 43
+        },
+        {
+            "store": 1,
+            "hour": 3,
+            "value": 237
+        },
+        {
+            "store": 1,
+            "hour": 4,
+            "value": 650
+        },
+        {
+            "store": 1,
+            "hour": 5,
+            "value": 138
+        },
+        {
+            "store": 1,
+            "hour": 6,
+            "value": 733
+        },
+        {
+            "store": 1,
+            "hour": 7,
+            "value": 475
+        },
+        {
+            "store": 1,
+            "hour": 8,
+            "value": 653
+        },
+        {
+            "store": 1,
+            "hour": 9,
+            "value": 586
+        },
+        {
+            "store": 1,
+            "hour": 10,
+            "value": 668
+        },
+        {
+            "store": 1,
+            "hour": 11,
+            "value": 111
+        },
+        {
+            "store": 1,
+            "hour": 12,
+            "value": 107
+        },
+        {
+            "store": 1,
+            "hour": 13,
+            "value": 962
+        },
+        {
+            "store": 1,
+            "hour": 14,
+            "value": 68
+        },
+        {
+            "store": 1,
+            "hour": 15,
+            "value": 651
+        },
+        {
+            "store": 1,
+            "hour": 16,
+            "value": 220
+        },
+        {
+            "store": 1,
+            "hour": 17,
+            "value": 811
+        },
+        {
+            "store": 1,
+            "hour": 18,
+            "value": 831
+        },
+        {
+            "store": 1,
+            "hour": 19,
+            "value": 178
+        },
+        {
+            "store": 1,
+            "hour": 20,
+            "value": 560
+        },
+        {
+            "store": 1,
+            "hour": 21,
+            "value": 635
+        },
+        {
+            "store": 1,
+            "hour": 22,
+            "value": 602
+        },
+        {
+            "store": 1,
+            "hour": 23,
+            "value": 512
+        },
+        {
+            "store": 1,
+            "hour": 24,
+            "value": 573
+        }
+    ],
+    
+    "saturday": [
+        {
+            "store": 1,
+            "hour": 1,
+            "value": 328
+        },
+        {
+            "store": 1,
+            "hour": 2,
+            "value": 393
+        },
+        {
+            "store": 1,
+            "hour": 3,
+            "value": 500
+        },
+        {
+            "store": 1,
+            "hour": 4,
+            "value": 700
+        },
+        {
+            "store": 1,
+            "hour": 5,
+            "value": 295
+        },
+        {
+            "store": 1,
+            "hour": 6,
+            "value": 292
+        },
+        {
+            "store": 1,
+            "hour": 7,
+            "value": 352
+        },
+        {
+            "store": 1,
+            "hour": 8,
+            "value": 236
+        },
+        {
+            "store": 1,
+            "hour": 9,
+            "value": 906
+        },
+        {
+            "store": 1,
+            "hour": 10,
+            "value": 474
+        },
+        {
+            "store": 1,
+            "hour": 11,
+            "value": 532
+        },
+        {
+            "store": 1,
+            "hour": 12,
+            "value": 258
+        },
+        {
+            "store": 1,
+            "hour": 13,
+            "value": 638
+        },
+        {
+            "store": 1,
+            "hour": 14,
+            "value": 760
+        },
+        {
+            "store": 1,
+            "hour": 15,
+            "value": 65
+        },
+        {
+            "store": 1,
+            "hour": 16,
+            "value": 611
+        },
+        {
+            "store": 1,
+            "hour": 17,
+            "value": 339
+        },
+        {
+            "store": 1,
+            "hour": 18,
+            "value": 705
+        },
+        {
+            "store": 1,
+            "hour": 19,
+            "value": 2
+        },
+        {
+            "store": 1,
+            "hour": 20,
+            "value": 10
+        },
+        {
+            "store": 1,
+            "hour": 21,
+            "value": 480
+        },
+        {
+            "store": 1,
+            "hour": 22,
+            "value": 45
+        },
+        {
+            "store": 1,
+            "hour": 23,
+            "value": 678
+        },
+        {
+            "store": 1,
+            "hour": 24,
+            "value": 643
+        }
+    ]
+}
