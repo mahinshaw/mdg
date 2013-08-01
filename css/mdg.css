@@ -27,4 +27,11 @@
 }
 pre #slide2{
     text-align: center;
-}   
+}
+
+.slidetitles {
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+    top: 10px;
+}
