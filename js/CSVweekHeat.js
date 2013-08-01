@@ -9,7 +9,7 @@ function CSVweekHeat(dataUrl, parentNode){
         stores = [],
         dayNames = [ ["Sunday"], ["Monday"], ["Tuesday"], ["Wednesday"], ["Thursday"], ["Friday"], ["Saturday"] ],
         days = [ "Su", "Mo", "Tu", "We", "Th", "Fr", "Sa" ],
-        weekDays = [["30-May-13"],["01-Jul-13"],["02-Jul-13"],["03-Jul-13"],["04-Jul-13"],["05-Jul-13"],["06-Jul-13"],["07-Jul-13"],["Week 1"],["08-Jul-13"],["09-Jul-13"],["10-Jul-13"],["11-Jul-13"],["12-Jul-13"],["13-Jul-13"],["14-Jul-13"],["Week 2"],["15-Jul-13"],["16-Jul-13"],["17-Jul-13"],["18-Jul-13"],["19-Jul-13"],["20-Jul-13"],["21-Jul-13"],["Week 3"],["22-Jul-13"],["23-Jul-13"],["24-Jul-13"],["25-Jul-13"],["26-Jul-13"],["27-Jul-13"],["28-Jul-13"],["Week 4"],["29-Jul-13"],["30-Jul-13"],["31-Jul-13"]];
+        weekDays = [["June 30, 2013"],["July 01, 2013"],["July 02, 2013"],["July 03, 2013"],["July 04, 2013"],["July 05, 2013"],["July 06, 2013"],["July 07, 2013"],["Week 1"],["July 08, 2013"],["Jul 09, 2013"],["July 10, 2013"],["July, 11, 2013"],["July 12, 2013"],["July 13, 2013"],["July 14, 2013"],["Week 2"],["July 15, 2013"],["July 16, 2013"],["July 17, 2013"],["July, 18, 2013"],["July, 19, 2013"],["July 20, 2013"],["July 21, 2013"],["Week 3"],["July 22, 2013"],["July 23, 2013"],["July 24, 2013"],["July 25, 2013"],["July 26, 2013"],["July 27, 2013"],["July 28, 2013"],["Week 4"],["July 29, 2013"],["July 30, 2013"],["July 31, 2013"]];
     
                /* Ajax call to get data and draw grids */
     d3.csv(dataUrl,
