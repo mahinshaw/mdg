@@ -35,3 +35,7 @@ pre #slide2{
     z-index: 30;
     top: 10px;
 }
+
+.auto-style1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
