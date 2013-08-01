@@ -5,14 +5,14 @@ function CSVmotionHeat(parentNode){
         svgH = 700,
         width = svgW - margin.right - margin.left,
         height = svgH - margin.top - margin.bottom,
-        colors = ["#d7191c","#fdae61","#ffffdf","#a6d96a","#1a9641"],
+        colors = ["#ffffdf","#fdae61","#d7191c","#a6d96a","#1a9641"],
         stores = [],
         dayNames = [ ["Thursday 04-Jul-13"], ["Friday 05-Jul-13"], ["Saturday 06-Jul-13"], ["Sunday 30-Jun-13"], ["Monday 01-Jul-13"], ["Tuesday 02-Jul-13"], ["Wednesday 03-Jul-13"] ],
         days = [ "Su", "Mo", "Tu", "We", "Th", "Fr", "Sa" ],
         hours = [ "12a", "1a", "2a", "3a", "4a", "5a", "6a", "7a", "8a", "9a", "10a", "11a", "12p", "1p", "2p", "3p", "4p", "5p", "6p", "7p", "8p", "9p", "10p", "11p" ],
         dataset = [],
         intervalArray = [500, 1000, 1500, 2000, 3000, 4000],
-        interval = intervalArray[4];
+        interval = intervalArray[2];
     
     var slower = d3.select("button.slower");
     var faster = d3.select("button.faster");

@@ -5,7 +5,7 @@ function CSVdayHeat(dataUrl, parentNode){
         svgH = 700,
         width = svgW - margin.right - margin.left,
         height = svgH - margin.top - margin.bottom,
-        colors = ["#d7191c","#fdae61","#ffffdf","#a6d96a","#1a9641"],
+        colors = ["#ffffdf","#fdae61","#d7191c","#a6d96a","#1a9641"],
         stores = [],
         dayNames = [ ["Sunday"], ["Monday"], ["Tuesday"], ["Wednesday"], ["Thursday"], ["Friday"], ["Saturday"] ],
         days = [ "Su", "Mo", "Tu", "We", "Th", "Fr", "Sa" ],
