@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Brought to you by Copperstate</title>
+		<title>Copperstate</title>
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="bootstrap-3.0.0/css/bootstrap.min.css">
 
         <script src="lib/js/d3.min.js"></script>
+        <script src="lib/js/queue.min.js"></script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -40,7 +41,7 @@
                         <div class="row">
                             <div class="col-sm-10 col-offset-1" style="text-align: center;">
                                 <h4><strong>Daily Sales for Wednesday- July 31, 2013</strong></h4>
-                                <h5>20 of 20 stores reporting.</h5>
+                                <h5>20 of 20 stores reporting</h5>
                             </div>
                         </div>
                         <div class="row">
@@ -77,9 +78,9 @@
                     <section data-state="technomic">
                         <div class="col-sm-10 col-offset-1" style="text-align: center;">
                                 <h4><strong>Daily Sales for Wednesday- July 31, 2013</strong></h4>
-                                <h5>20 of 20 stores reporting.</h5>
+                                <h5>20 of 20 stores reporting</h5>
                             </div>
-                        <img src="lib/assets/DemoHeatMap.png" class="img-rounded">
+                        <img src="lib/assets/Daily.png" class="img-rounded">
                         <!-- Button trigger modal -->
                         <a data-toggle="modal" href="#slide4" class="btn btn-primary btn-large" id="slide4button">MDG Data</a>
                         
@@ -87,7 +88,7 @@
                     <!-- slide 7 -->
                     <section data-state="appplatter">
 	<h4><strong>AppPlatter Daily Summary July 31, 2013</strong></h4>
-                        <h5>20 of 20 stores reporting.</h5>
+                        <h5>20 of 20 stores reporting</h5>
                         <pre>
                         <p></p>
 <strong> Suspicious Transactions</strong>
@@ -98,7 +99,7 @@
 <strong> Top Sellers/Market Basket </strong>
  Appetizers
      1. Chicken Wings $985.49
-              Sells with Bud Light (47%), Pasta Pomoro (34%), Coors (16%)
+              Sells with Bud Light (47%), Pasta Pomoro (34%), Coors(16%)
  Entrees
         1. Pasta Podomo $2,938.03
               Sells with Bloody Mary (53%), Nachos (27%), Martini (15%)
@@ -119,29 +120,37 @@
                     </section>
                     <!-- slide 10 -->
                     <section data-state="mercury">
-<h4><strong>Daily Sales for Wednesday- July 31, 2013</strong></h4>
-                        <h5>20 of 20 stores reporting.</h5>
+<h4><strong>Transaction Report- July 31, 2013</strong></h4>
+                        <h5>20 of 20 stores reporting</h5>
                         <pre>
-<strong>Sales</strong>
-	Gross Sales     $36,286.98
-	Tax             $2,902.98
-	Discounts       $122.35
-	Net Sales       $33,261.65
+<strong>Total Transactions      1,340 (100%)</strong>
+	Visa			620 (46%)
+ 		Visa Credit  200
+ 		Visa Debit   420	
+	MC			560 (42%)
+ 		MC Credit    280
+ 		MC Debit     280
+	Amex			140 (10%)	
+	Discover       		20 (1%)
+<strong>Dollar Volume		$94,305.40 (100%)</strong>
+	Visa			$43,465.00 (46%)
+		Visa Credit $22,978.60
+ 		Visa Debit  $20,486.40
+	MC			$41,313.20 (42%)
+ 		MC Credit   $20,248.80
+		MC Debit    $21,064.40
+	Amex			$7,913.40 (10%)	
+	Discover       		$1,613.80 (1%)
+<strong>Average Transaction</strong>
+ Visa					$70.10
+	Visa Credit 	$54.71
+	Visa Debit	$102.43
+ MC					$73.77
+	MC Credit	$72.32
+	MC Debit	$75.23
+Amex					$56.52
+Discover      				$80.69
 
-<strong>Labor</strong>
-	Labor Hours     926
-	Labor Dollars	$13,890
-	Labor % Sales	42%
-
-<strong>Payments</strong>
-	Cash            $7,257.34
-	Visa/MC         $28,206.78
-	Amex            $822.86
-
-<strong>Department Sales</strong>
-	Food            $25,400.87
-	Drink           $10,413.96
-	Misc            $472.15
                         </pre> 
                         
                            
@@ -159,7 +168,7 @@
                         <div class="row">
                             <div class="col-sm-10 col-offset-1" style="text-align: center;">
                                 <h4><strong>Weekly Sales for July 28, 2013-August 3, 2013</strong></h4>
-                                <h5>Reporting through Wednesday (4 Days out of 7).</h5>
+                                <h5>Report through Wednesday (4 Days out of 7)</h5>
                             </div>
                         </div>
                         <div class="row">
@@ -200,13 +209,13 @@
                                 <h5>Reporting through Wednesday (4 Days out of 7).</h5>
                             </div>
                         </div>
-                        <img src="lib/assets/DemoHeatMap.png" class="img-rounded">
+                        <img src="lib/assets/weekly.png" class="img-rounded">
                         <a data-toggle="modal" href="#slide4" class="btn btn-primary btn-large" id="slide5button">MDG Data</a>
                     </section>
                     <!-- slide 8 -->
                     <section data-state="appplatter">
 	<h4><strong>Weekly Summary for July 28, 2013-August 3, 2013</strong></h4>
-                        <h5>Reporting through Wednesday (4 Days out of 7).</h5>
+                        <h5>Reporting through Wednesday (4 Days out of 7)</h5>
                         <pre>
                         <p></p>
 <strong> Suspicious Transactions</strong>
@@ -217,7 +226,7 @@
 <strong> Top Sellers/Market Basket </strong>
  Appetizers
      1. Chicken Wings $3941.96
-              Sells with Bud Light (47%), Pasta Pomoro (34%), Coors (16%)
+              Sells with Bud Light (47%), Pasta Pomoro (34%), Coors(16%)
  Entrees
         1. Pasta Podomo $11,752.12
               Sells with Bloody Mary (53%), Nachos (27%), Martini (15%)
@@ -238,30 +247,38 @@
                     </section>
                     <!-- slide 11 -->
                     <section data-state="mercury">
-<h4><strong>Daily Sales for Wednesday- July 31, 2013</strong></h4>
-                        <h5>20 of 20 stores reporting.</h5>
+<h4><strong>Weekly Summary for July 28, 2013-August 3, 2013</strong></h4>
+                        <h5>Reporting through Wednesday (4 Days out of 7)</h5>
                         <pre>
-<strong> Sales</strong>
-	Gross Sales     $36,286.98
-	Tax             $2,902.98
-	Discounts       $122.35
-	Net Sales       $33,261.65
+<strong>Total Transactions      5,360 (100%)</strong>
+	Visa			2,480 (46%)
+ 		Visa Credit  800
+ 		Visa Debit   1,680	
+	MC			2,240 (42%)
+ 		MC Credit    1,120
+ 		MC Debit     1,120
+	Amex			560 (10%)	
+	Discover       		80 (1%)
+<strong>Dollar Volume		$377,221.60 (100%)</strong>
+	Visa			$173,860 (46%)
+		Visa Credit $81,945.60
+ 		Visa Debit  $91,914.40
+	MC			$165,252.80 (42%)
+ 		MC Credit   $80,995.20
+		MC Debit    $84,257.60
+	Amex			$31,653.60 (10%)	
+	Discover       		$6,455.20 (1%)
+<strong>Average Transaction</strong>
+ Visa					$70.10
+	Visa Credit 	$54.71
+	Visa Debit	$102.43
+ MC					$73.77
+	MC Credit	$72.32
+	MC Debit	$75.23
+Amex					$56.52
+Discover      				$80.69
 
-<strong> Labor</strong>
-	Labor Hours     926
-	Labor Dollars	$13,890
-	Labor % Sales	42%
-
-<strong> Payments</strong>
-	Cash            $7,257.34
-	Visa/MC         $28,206.78
-	Amex            $822.86
-
-<strong> Department Sales</strong>
-	Food            $25,400.87
-	Drink           $10,413.96
-	Misc            $472.15
-                        </pre>
+                        </pre> 
                     </section>
                     <!-- slide 14 -->
                     <section data-state="fohboh">
@@ -274,7 +291,7 @@
                         <div class="row">
                             <div class="col-sm-10 col-offset-1" style="text-align: center;">
                                 <h4><strong>Monthly Sales for July 2013</strong></h4>
-                                <h5>Reporting through July 31 (31 Days out of 31).</h5>
+                                <h5>Reporting through July 31 (31 Days out of 31)</h5>
                             </div>
                         </div>
                         <div class="row">
@@ -315,13 +332,13 @@
                                 <h5>Reporting through July 31 (31 Days out of 31).</h5>
                             </div>
                         </div>
-                        <img src="lib/assets/DemoHeatMap.png" class="img-rounded">
+                        <img src="lib/assets/monthly.png" class="img-rounded">
                         <a data-toggle="modal" href="#slide7" class="btn btn-primary btn-large">Take Survey - MDG Data</a>
                     </section>
                     <!-- slide 9 -->
                     <section data-state="appplatter">
 	<h4><strong>Monthly AppPlatter for July 2013</strong></h4>
-                        <h5>Reporting through July 31 (31 Days out of 31).</h5>
+                        <h5>Reporting through July 31 (31 Days out of 31)</h5>
                         <pre>
                         <p></p>
 <strong> Suspicious Transactions</strong>
@@ -332,7 +349,7 @@
 <strong> Top Sellers/Market Basket </strong>
  Appetizers
      1. Chicken Wings $30,550.19
-              Sells with Bud Light (47%), Pasta Pomoro (34%), Coors (16%)
+              Sells with Bud Light (47%), Pasta Pomoro (34%), Coors(16%)
  Entrees
         1. Pasta Podomo $91,078.93
               Sells with Bloody Mary (53%), Nachos (27%), Martini (15%)
@@ -353,30 +370,38 @@
                     </section>
                     <!-- slide 12 -->
                     <section data-state="mercury">
-<h4><strong>Daily Sales for Wednesday- July 31, 2013</strong></h4>
-                        <h5>20 of 20 stores reporting.</h5>
+<h4><strong>Monthly Transactions for July 2013</strong></h4>
+                        <h5>Reporting through July 31 (31 Days out of 31)</h5>
                         <pre>
-<strong>Sales</strong>
-	Gross Sales     $36,286.98
-	Tax             $2,902.98
-	Discounts       $122.35
-	Net Sales       $33,261.65
+<strong>Total Transactions      166,160 (100%)</strong>
+	Visa			76,880 (46%)
+ 		Visa Credit  24,800
+ 		Visa Debit   52,080	
+	MC			69,440 (42%)
+ 		MC Credit    34,720
+ 		MC Debit     34,720
+	Amex			17,360 (10%)	
+	Discover       		2,480 (1%)
+<strong>Dollar Volume		$11,693,869.60 (100%)</strong>
+	Visa			$5,389,660 (46%)
+		Visa Credit $2,849,346.40
+ 		Visa Debit  $2,540,313.60
+	MC			$5,122,826.80 (42%)
+ 		MC Credit   $2,510,851.20
+		MC Debit    $2,611,985.60
+	Amex			$981,261.60 (10%)	
+	Discover       		$200,111.20 (1%)
+<strong>Average Transaction</strong>
+ Visa					$70.10
+	Visa Credit 	$54.71
+	Visa Debit	$102.43
+ MC					$73.77
+	MC Credit	$72.32
+	MC Debit	$75.23
+Amex					$56.52
+Discover      				$80.69
 
-<strong>Labor</strong>
-	Labor Hours     926
-	Labor Dollars	$13,890
-	Labor % Sales	42%
-
-<strong>Payments</strong>
-	Cash            $7,257.34
-	Visa/MC         $28,206.78
-	Amex            $822.86
-
-<strong>Department Sales</strong>
-	Food            $25,400.87
-	Drink           $10,413.96
-	Misc            $472.15
-                        </pre>
+                        </pre> 
                     </section>
                     <!-- slide 15 -->
                     <section data-state="fohboh">
@@ -516,8 +541,10 @@
         <script src="bootstrap-3.0.0/js/bootstrap.min.js"></script>
         
         <script src="colorbrewer/colorbrewer.js"></script>
-        <script src="js/WeeklyHeat.js"></script>
-        <script src="js/WeeklyStatic.js"></script>
+        <script src="js/CSVmotionheat.js"></script>
+        <script src="js/CSVdayHeat.js"></script>
+        <script src="js/CSVweekHeat.js"></script>
+        <script src="js/CSVmonthHeat.js"></script>
         
         <script type="text/javascript">
             //this script pertains to the modal in slide7
@@ -526,7 +553,7 @@
             
             modalSurveyButton.click(function(){
                 $("#surveyform").detach();
-                WeeklyHeatMap("data/4week.json", "div.heat7");
+                CSVmotionHeat("div.heat7");
                 modalSurveyButton.addClass('disabled');
             });
         </script>
@@ -534,10 +561,8 @@
         <script type="text/javascript">
             // this script pertains to the d3 in slides 4 and 5
             // as well as the modal in slides 4 and 5
-            WeeklyStatic("data/4week.json", "div.heat4", 1);
-            WeeklyStatic("data/4week.json", "div.heat5", 5);
-            $("#slide4button").click(WeeklyHeatMap("data/4week.json", "div.modalheat4"));
-            $("#slide5button").click(WeeklyHeatMap("data/4week.json", "div.modalheat5"));
+            $("#slide4button").click(CSVmotionHeat("div.modalheat4"));
+            $("#slide5button").click(CSVmotionHeat("div.modalheat5"));
         </script>
         
         <script type="text/javascript">
@@ -605,3 +630,4 @@
 		</script>
 	</body>
 </html>
+

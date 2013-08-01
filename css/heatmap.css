@@ -4,9 +4,9 @@ rect.border {
 }
 
 text.mono {
-    font-size: 9pt;
+    font-size: 10pt;
     font-family: Consolas, courier;
-    fill: #aaa;
+    fill: #333;
 }
 
 div.d3 {
