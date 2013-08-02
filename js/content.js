@@ -16,5 +16,5 @@ modalSurveyButton9.click(function(){
 modalSurveyButton6.click(function(){
     $("#ms6survey").detach();
     CSVmotionHeat("div.heat6");
-    modalSurveyButton.detach();
+    modalSurveyButton6.detach();
 });
